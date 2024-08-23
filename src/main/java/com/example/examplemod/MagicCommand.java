@@ -50,6 +50,7 @@ public class MagicCommand {
         var newPos = pos.east(2).above(2);
 
         level.setBlock(newPos, Blocks.DIAMOND_BLOCK.defaultBlockState(), 3);
+
     }
 
 }
